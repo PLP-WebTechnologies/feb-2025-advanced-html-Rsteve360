@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Assignment</title>
+</head>
+<body>
+
+    <h2>Roman Numeral List</h2>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="_blank" width="400">
+
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Jane Doe</td><td>123 Apple St</td><td>0123456789</td><td>jane@example.com</td></tr>
+            <tr><td>John Smith</td><td>456 Banana Rd</td><td>0987654321</td><td>john@example.com</td></tr>
+            <tr><td>Alice Lee</td><td>789 Orange Blvd</td><td>0112233445</td><td>alice@example.com</td></tr>
+            <tr><td>Bob Kay</td><td>321 Peach Ave</td><td>0667788990</td><td>bob@example.com</td></tr>
+            <tr><td>Sue Kim</td><td>654 Grape Ln</td><td>0778899001</td><td>sue@example.com</td></tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select...</option>
+            <option value="South Africa">South Africa</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
